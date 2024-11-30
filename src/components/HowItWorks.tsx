@@ -5,17 +5,23 @@ const steps = [
   {
     icon: PhoneCall,
     title: "Primo Contatto",
-    description: "Prenota una consulenza gratuita per valutare le tue esigenze"
+    description: "Prenota una consulenza gratuita per valutare le tue esigenze",
+    ctaText: "Prenota Ora",
+    ctaLink: "#contact"
   },
   {
     icon: FileText,
     title: "Piano Finanziario",
-    description: "I nostri esperti costruiscono un piano finanziario personalizzato"
+    description: "I nostri esperti costruiscono un piano finanziario personalizzato",
+    ctaText: "Scopri di Più",
+    ctaLink: "#financial-plan"
   },
   {
     icon: LineChart,
     title: "Supporto Continuativo",
-    description: "Monitoriamo i tuoi progressi e adattiamo il piano alle tue necessità"
+    description: "Monitoriamo i tuoi progressi e adattiamo il piano alle tue necessità",
+    ctaText: "Contattaci",
+    ctaLink: "#support"
   }
 ];
 
@@ -48,17 +54,16 @@ export default function HowItWorks() {
               </div>
               <h3 className="text-2xl font-semibold mb-4">{step.title}</h3>
               <p className="text-gray-600">{step.description}</p>
-              {index < steps.length - 1 && (
-                <div className="flex justify-center mt-6">
-                  <motion.div
-                    animate={{ x: [0, 5, 0] }}
-                    transition={{ repeat: Infinity, duration: 1.5 }}
-                    className="text-4xl text-gray-300"
-                  >
-                    →
-                  </motion.div>
-                </div>
-              )}
+
+              {/* CTA */}
+              <div className="mt-6">
+                <a
+                  href={step.ctaLink}
+                  className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+                >
+                  {step.ctaText}
+                </a>
+              </div>
             </motion.div>
           ))}
         </div>
