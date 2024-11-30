@@ -89,7 +89,6 @@ This project is licensed under the **MIT License**. Feel free to use and adapt i
 
 ---
 
-If you need further adjustments or additions, let me know!
 
 
 
