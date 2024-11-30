@@ -1,5 +1,14 @@
 # Fin Advisor Landing
 
+![image](https://github.com/user-attachments/assets/4f9aeaa1-b856-4ad9-8f81-e5beadfcdff0)
+![image](https://github.com/user-attachments/assets/50c6a3f8-fa78-4109-bd4f-b73a324d694f)
+![image](https://github.com/user-attachments/assets/ef722636-26f0-4424-9323-80f615bc1ed7)
+![image](https://github.com/user-attachments/assets/90d041fb-54fb-4920-a203-f7b25540ef38)
+![image](https://github.com/user-attachments/assets/d6cb4cf8-959b-4067-ba65-e8a127d23fdd)
+![image](https://github.com/user-attachments/assets/6eca20ce-f987-4294-a06e-74d0cab42492)
+![image](https://github.com/user-attachments/assets/17024ceb-1dfc-47cc-8641-771ceb4ccd8d)
+
+
 **Fin Advisor Landing** is a modern and responsive web application designed to create an engaging and professional landing page.
 
 ## 🛠️ Technologies Used
@@ -80,7 +89,6 @@ This project is licensed under the **MIT License**. Feel free to use and adapt i
 
 ---
 
-If you need further adjustments or additions, let me know!
 
 
 
