@@ -20,16 +20,16 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl text-white"
         >
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 mx-20">
             Pianifica il Tuo Futuro Finanziario con Esperti Certificati
           </h1>
-          <p className="text-xl md:text-2xl mb-8">
+          <p className="text-xl md:text-2xl mb-8 mx-20">
             Affidati a FinAdvisor per costruire il tuo benessere finanziario
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold flex items-center gap-2 transition-colors"
+            className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold flex items-center gap-2 transition-colors mx-20"
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Prenota una Consulenza Gratuita
