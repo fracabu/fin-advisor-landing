@@ -1,28 +1,21 @@
-# JavaScript e TypeScript
-*.js linguaggio=JavaScript
-*.jsx linguaggio=JavaScript
-*.ts linguaggio=TypeScript
-*.tsx linguaggio=TypeScript
+# Linguaggi e tecnologie principali
+*.ts linguaggio=TypeScript # Principale linguaggio utilizzato per il progetto
+*.tsx linguaggio=TypeScript # Componenti React in TypeScript
+*.js linguaggio=JavaScript # Script occasionali o configurazioni
+*.jsx linguaggio=JavaScript # Componenti React (se presenti)
+*.json linguaggio=JSON # Configurazioni e gestione dipendenze
+*.css linguaggio=CSS # Styling aggiuntivo
+*.html linguaggio=HTML # Punto di ingresso dell'applicazione
 
-# Vue.js (se lo usi)
-*.vue linguaggio=Vue
+# Configurazioni principali
+tailwind.config.js linguaggio=JavaScript # Configurazione TailwindCSS
+vite.config.ts linguaggio=TypeScript # Configurazione del bundler Vite
+postcss.config.js linguaggio=JavaScript # Configurazione di PostCSS
+tsconfig*.json linguaggio=JSON # Configurazioni TypeScript
 
-# CSS e Tailwind
-*.css linguaggio=CSS
-*.scss linguaggio=CSS
-*.tailwind.css linguaggio=CSS
-
-# Configurazioni per Next.js e Vite
-vite.config.js linguaggio=JavaScript
-next.config.js linguaggio=JavaScript
-next.config.ts linguaggio=TypeScript
-
-# Configurazioni per Tailwind
-tailwind.config.js linguaggio=JavaScript
-tailwind.config.ts linguaggio=TypeScript
-
-# Ignora file o cartelle non rilevanti
-node_modules/* linguaggio=ignora
-dist/* linguaggio=ignora
-build/* linguaggio=ignora
-public/* linguaggio=ignora
+# File ignorati e generati automaticamente
+node_modules/* linguaggio=ignora # Dipendenze Node.js
+dist/* linguaggio=ignora # File generati da build
+build/* linguaggio=ignora # Output di build (se presente)
+*.log linguaggio=ignora # File di log generati
+*.lock linguaggio=ignora # File di lock delle dipendenze
